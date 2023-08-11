@@ -1,0 +1,439 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+
+     background-color: black;
+    
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin-left: 100px;
+    align-items: center;
+    
+}
+.logo{
+
+    width: 300px;
+    margin-top: 3%;
+    margin-left: 10%;
+       
+}
+.listitem{
+    display: inline-block;
+    margin: 20px 40px;
+
+
+}
+.link{
+    text-decoration: none;
+    color:white;
+    font-weight: 300;
+    font-weight: bold;
+}
+.link:hover{
+    color: red;
+   
+}
+.restaurant{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.maincontent{
+    margin-top: 10%;
+    text-align: justify;
+}
+.name{
+    font-size: 50px;
+    
+}
+.name span{
+    font-size: 50px;
+    color: orangered;
+    font-style: italic;
+}
+.name3{
+    font-weight: 200;
+    font-size: 30px;
+    align-items: center;
+    font-style: italic;
+} 
+.name4{
+font-size: 17px;
+}
+.heading{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.about-content{
+    font-size: 15px;
+    margin-top: 60px;
+    margin-left: 27%;
+    margin-right: 27%;
+}
+.about-details{
+     text-align: center;
+     text-align: justify;
+     font-size: 17px;
+    
+}
+.image-cafe{
+    width: 870px;
+    margin-right: 27%;
+    margin-bottom:9%;
+    border-radius: 10px;
+
+
+}
+.menuhd{
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.menuhd h2{
+    font-size: 22px;
+    margin-bottom: 30px;
+    margin-top: 2%;
+}
+.menucontent{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+}
+.content{
+    margin-top: 50px;
+    margin-left: 20%;
+}
+.biriyani{
+    width: 400px;
+    height: 290px;
+    border-radius: 12px;
+}
+.contenth{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: blue;
+}
+.contentp{
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: green;
+}
+.ordera{
+    width: 100px;
+    background-color: greenyellow;
+}
+.contenta{
+    text-decoration: none;
+    background-color: greenyellow;
+    color: black;
+    font-weight: bold;
+}
+.contentone{
+    margin-top: 50px;
+    margin-left: 10%;
+}
+.kappa{
+    width: 400px;
+    height: 290px;
+    border-radius: 12px;
+}
+.contentoneh{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: blue;
+}
+.contentonep{
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: green;
+}
+.orderb{
+    width: 100px;
+    background-color: greenyellow;
+}
+.contentonea{
+    text-decoration: none;
+    background-color: greenyellow;
+    color: black;
+    font-weight: bold;
+}
+.contenttwo{
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+.pizza{
+    width: 400px;
+    height: 290px;
+    border-radius: 12px;
+}
+.contenttwoh{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: blue;
+}
+.contenttwop{
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: green;
+}
+.orderc{
+    width: 100px;
+    background-color: greenyellow;
+}
+.contenttwoa{
+    text-decoration: none;
+    background-color: greenyellow;
+    color: black;
+    font-weight: bold;
+}
+.contentthree{
+    margin-top: 50px;
+    margin-left: 20%;
+    
+}
+.burger{
+    width: 400px;
+    height: 290px;
+    border-radius: 12px;
+}
+.contentthreeh{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: blue;
+}
+.contentthreep{
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: green;
+}
+.orderd{
+    width: 100px;
+    background-color: greenyellow;
+}
+.contentthreea{
+    text-decoration: none;
+    background-color: greenyellow;
+    color: black;
+    font-weight: bold;
+}
+.contentfour{
+    margin-top: 50px;
+    margin-left:10%;
+
+}
+.kizhiporotta{
+    width: 400px;
+    height: 290px;
+    border-radius: 12px;
+}
+.contentfourh{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: blue;
+}
+.contentfourp{
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: green;
+}
+.ordere{
+    width: 100px;
+    background-color: greenyellow;
+}
+.contentfoura{
+    text-decoration:none;
+    background-color: greenyellow;
+    color: black;
+    font-weight: bold;
+}
+.contentfive{
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.kuzhimanthi{
+    width: 400px;
+    height: 290px;
+    border-radius: 12px;
+}
+
+.contentfiveh{
+        font-size: 20px;
+        margin-top: 10px;
+        font-weight: bold;
+        color: blue;
+}
+.contentfivep{
+        margin-bottom: 10px;
+        font-size: 18px;
+        color: green;
+}
+.orderf{
+        width: 100px;
+        background-color: greenyellow;
+}
+.contentfivea{
+        text-decoration:none;
+        background-color: greenyellow;
+        color: black;
+        font-weight: bold;
+}
+.menubar{
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 7%;
+
+}
+.viewmenu{
+    width: 400px;
+    height: 50px;
+    align-items: center;
+     margin-left: 41%;
+    background-color:greenyellow;
+}
+.viewmenu:hover{
+    background-image: linear-gradient(to bottom right,green,red);
+}
+.viewmenu1:hover{
+    background-image: linear-gradient(to bottom right,green,red);
+}
+.viewmenu1{
+    text-decoration: none;
+    background-color:greenyellow;
+    color: black;
+    font-size: 20px;
+
+}
+.icon-set{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
+
+}
+.icon i{
+
+    font-size: 30px;
+    color: blue;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right, green,greenyellow,red);
+}
+.logo:hover i{
+    color: white;
+    animation: shake,0.75s;
+}
+@keyframes shake{
+    100%{
+        transform:rotate((15deg))
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+    30%{
+        transform: rotate(15deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
